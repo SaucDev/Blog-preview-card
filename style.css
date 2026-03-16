@@ -31,9 +31,9 @@ main {
 
 article {
 	background-color: var(--white);
-	height: 500px;
+	height: 525px;
 	width: 400px;
-	padding: 23px;
+	padding: 20px;
 	border-radius: 20px;
 	border: 1px solid black;
 	box-shadow: 8px 8px 0 black;

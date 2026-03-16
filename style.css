@@ -13,7 +13,9 @@
 }
 
 .sr-only {
-	display: none;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
 }
 
 body {
@@ -21,7 +23,6 @@ body {
 }
 
 main {
-	display: flex;
 	justify-content: center;
 	align-items: center;
 	min-width: 100vw;
@@ -78,6 +79,7 @@ p {
 	color: var(--gray);
 	font-size: 1em;
 	font-weight: 500;
+	line-height: 1.4;
 }
 
 footer {
